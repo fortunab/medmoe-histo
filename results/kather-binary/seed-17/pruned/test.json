@@ -1,0 +1,47 @@
+{
+  "n": 752,
+  "accuracy": 0.964095744680851,
+  "sensitivity": 0.8936170212765957,
+  "specificity": 0.9741641337386018,
+  "balanced_accuracy": 0.9338905775075987,
+  "macro_f1": 0.9204560145736617,
+  "confusion_matrix": [
+    [
+      641,
+      17
+    ],
+    [
+      10,
+      84
+    ]
+  ],
+  "support": [
+    658,
+    94
+  ],
+  "per_class_sensitivity": [
+    0.9741641337386018,
+    0.8936170212765957
+  ],
+  "per_class_specificity": [
+    0.8936170212765957,
+    0.9741641337386018
+  ],
+  "total_parameters": 55372,
+  "mean_active_parameters": 55372.0,
+  "latency_ms_per_image": 0.438134973321328,
+  "full_model_fp32_bytes": 221488,
+  "top_k": 4,
+  "retained_experts": 4,
+  "expert_sparsity": 0.0,
+  "utilization": {
+    "texture_3x3": 1.0,
+    "context": 1.0,
+    "wide_context": 1.0,
+    "channel_mlp": 1.0
+  },
+  "mean_gradient_payload_bytes": 221488.0,
+  "whole_run_gradient_payload_bytes": 78369000,
+  "active_pct_dense": 83.10869630474589,
+  "communication_pct_dense": 83.10869630474589
+}

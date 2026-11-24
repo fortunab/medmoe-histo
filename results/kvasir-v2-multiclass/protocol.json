@@ -1,0 +1,85 @@
+{
+  "dataset": "kvasir-v2",
+  "data": "..\\kvasir-v2.zip",
+  "out": "..\\runs\\kvasir-v2-multiclass",
+  "task": "multiclass",
+  "models": [
+    "dense",
+    "moe",
+    "pruned",
+    "random-pruned"
+  ],
+  "seeds": [
+    17
+  ],
+  "split_seed": 2027,
+  "split_mode": "image",
+  "epochs": 6,
+  "warmup": 1,
+  "top_k": 4,
+  "prune_count": 2,
+  "prune_threshold": 1.0,
+  "balance": 0.02,
+  "batch_size": 64,
+  "lr": 0.001,
+  "weight_decay": 0.0001,
+  "image_size": 64,
+  "threads": 2,
+  "device": "cpu",
+  "limit_per_class": 0,
+  "allow_subset": false,
+  "no_cache": false,
+  "pretrained": false,
+  "checkpoints": false,
+  "pruning_sweep": false,
+  "dataset_index": {
+    "images_found": 8000,
+    "raw_classes": [
+      "dyed-lifted-polyps",
+      "dyed-resection-margins",
+      "esophagitis",
+      "normal-cecum",
+      "normal-pylorus",
+      "normal-z-line",
+      "polyps",
+      "ulcerative-colitis"
+    ],
+    "conflicting_duplicate_images_dropped": 2,
+    "same_label_duplicate_images_dropped": 11
+  },
+  "class_names": [
+    "dyed-lifted-polyps",
+    "dyed-resection-margins",
+    "esophagitis",
+    "normal-cecum",
+    "normal-pylorus",
+    "normal-z-line",
+    "polyps",
+    "ulcerative-colitis"
+  ],
+  "input_label_mapping": {
+    "dyed-lifted-polyps": 0,
+    "dyed-resection-margins": 1,
+    "esophagitis": 2,
+    "normal-cecum": 3,
+    "normal-pylorus": 4,
+    "normal-z-line": 5,
+    "polyps": 6,
+    "ulcerative-colitis": 7
+  },
+  "split_sha256": "4976ce6979df0e11dacba06c2c7a1f956173d1f51a18121bff8b152df0633daa",
+  "split_sizes": {
+    "train": 5589,
+    "validation": 1199,
+    "test": 1199
+  },
+  "slide_groups": null,
+  "python": "3.12.3",
+  "platform": "Windows-11-10.0.26200-SP0",
+  "dependencies": {
+    "numpy": "1.26.4",
+    "Pillow": "10.4.0",
+    "torch": "2.13.0"
+  },
+  "model_identifiers": {}
+}

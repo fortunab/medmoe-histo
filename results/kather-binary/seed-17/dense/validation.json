@@ -1,0 +1,34 @@
+{
+  "n": 752,
+  "accuracy": 0.9707446808510638,
+  "sensitivity": 0.8404255319148937,
+  "specificity": 0.9893617021276596,
+  "balanced_accuracy": 0.9148936170212767,
+  "macro_f1": 0.930580731789191,
+  "confusion_matrix": [
+    [
+      651,
+      7
+    ],
+    [
+      15,
+      79
+    ]
+  ],
+  "support": [
+    658,
+    94
+  ],
+  "per_class_sensitivity": [
+    0.9893617021276596,
+    0.8404255319148937
+  ],
+  "per_class_specificity": [
+    0.8404255319148937,
+    0.9893617021276596
+  ],
+  "total_parameters": 66626,
+  "mean_active_parameters": 66626.0,
+  "latency_ms_per_image": 0.3222509306184254,
+  "full_model_fp32_bytes": 266504
+}

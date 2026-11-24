@@ -1,0 +1,49 @@
+{
+  "n": 1598,
+  "accuracy": 0.9849812265331664,
+  "sensitivity": 0.9545454545454546,
+  "specificity": 0.9882271468144044,
+  "balanced_accuracy": 0.9713863006799295,
+  "macro_f1": 0.9580945887474268,
+  "confusion_matrix": [
+    [
+      1427,
+      17
+    ],
+    [
+      7,
+      147
+    ]
+  ],
+  "support": [
+    1444,
+    154
+  ],
+  "per_class_sensitivity": [
+    0.9882271468144044,
+    0.9545454545454546
+  ],
+  "per_class_specificity": [
+    0.9545454545454546,
+    0.9882271468144044
+  ],
+  "total_parameters": 81234,
+  "mean_active_parameters": 52355.28660826033,
+  "latency_ms_per_image": 0.4182273466070095,
+  "full_model_fp32_bytes": 324936,
+  "top_k": 4,
+  "retained_experts": 6,
+  "expert_sparsity": 0.33333333333333337,
+  "utilization": {
+    "texture_3x3": 0.7884856070087609,
+    "texture_5x5": 0.581351689612015,
+    "context": 1.0,
+    "wide_context": 0.2784730913642053,
+    "lightweight": 0.5456821026282853,
+    "channel_mlp": 0.8060075093867334
+  },
+  "mean_gradient_payload_bytes": 324936.0,
+  "whole_run_gradient_payload_bytes": 227483856,
+  "active_pct_dense": 78.58086423957664,
+  "communication_pct_dense": 121.92537447843185
+}

@@ -1,0 +1,26 @@
+{
+  "moe": {
+    "accuracy_delta": -0.0025031289111389237,
+    "image_bootstrap_ci95": [
+      -0.007509386733416771,
+      0.0025031289111389237
+    ],
+    "draws": 2000
+  },
+  "random-pruned": {
+    "accuracy_delta": 0.0,
+    "image_bootstrap_ci95": [
+      0.0,
+      0.0
+    ],
+    "draws": 2000
+  },
+  "dense": {
+    "accuracy_delta": -0.012515644555694618,
+    "image_bootstrap_ci95": [
+      -0.02690863579474343,
+      0.0006257822277847309
+    ],
+    "draws": 2000
+  }
+}

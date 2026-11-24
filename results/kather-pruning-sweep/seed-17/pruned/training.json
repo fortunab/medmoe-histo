@@ -1,0 +1,20 @@
+[
+  {
+    "examples": 3496,
+    "steps": 55,
+    "loss_sum": 4647.686735630035,
+    "gradient_bytes_sum": 17955624,
+    "epoch": 1,
+    "seconds": 5.172108499915339,
+    "phase": "warmup"
+  },
+  {
+    "examples": 3496,
+    "steps": 55,
+    "loss_sum": 2897.769720554352,
+    "gradient_bytes_sum": 15883120,
+    "epoch": 1,
+    "seconds": 3.4550842999015003,
+    "phase": "train"
+  }
+]

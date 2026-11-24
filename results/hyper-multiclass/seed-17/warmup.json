@@ -1,0 +1,33 @@
+{
+  "history": [
+    {
+      "examples": 7466,
+      "steps": 117,
+      "loss_sum": 13735.645014286041,
+      "gradient_bytes_sum": 40737552,
+      "epoch": 1,
+      "seconds": 9.880761900101788,
+      "phase": "warmup"
+    }
+  ],
+  "utilization": {
+    "texture_3x3": 0.5550495579962497,
+    "texture_5x5": 0.5916153227966783,
+    "context": 0.7875703187784624,
+    "wide_context": 0.999196356817573,
+    "lightweight": 0.3001607286364854,
+    "channel_mlp": 0.7664077149745513
+  },
+  "retained": [
+    "texture_5x5",
+    "context",
+    "wide_context",
+    "channel_mlp"
+  ],
+  "random_retained": [
+    "texture_5x5",
+    "context",
+    "wide_context",
+    "channel_mlp"
+  ]
+}

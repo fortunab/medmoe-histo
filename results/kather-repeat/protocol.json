@@ -1,0 +1,82 @@
+{
+  "dataset": "kather",
+  "data": "..\\kather.zip",
+  "out": "..\\runs\\kather-repeat",
+  "task": "multiclass",
+  "models": [
+    "moe",
+    "pruned"
+  ],
+  "seeds": [
+    17
+  ],
+  "split_seed": 2027,
+  "split_mode": "image",
+  "epochs": 6,
+  "warmup": 1,
+  "top_k": 4,
+  "prune_count": 2,
+  "prune_threshold": 1.0,
+  "balance": 0.02,
+  "batch_size": 64,
+  "lr": 0.001,
+  "weight_decay": 0.0001,
+  "image_size": 64,
+  "threads": 3,
+  "device": "cpu",
+  "limit_per_class": 0,
+  "allow_subset": false,
+  "no_cache": false,
+  "pretrained": false,
+  "checkpoints": false,
+  "dataset_index": {
+    "images_found": 5000,
+    "raw_classes": [
+      "01_TUMOR",
+      "02_STROMA",
+      "03_COMPLEX",
+      "04_LYMPHO",
+      "05_DEBRIS",
+      "06_MUCOSA",
+      "07_ADIPOSE",
+      "08_EMPTY"
+    ],
+    "conflicting_duplicate_images_dropped": 0,
+    "same_label_duplicate_images_dropped": 0
+  },
+  "class_names": [
+    "01_TUMOR",
+    "02_STROMA",
+    "03_COMPLEX",
+    "04_LYMPHO",
+    "05_DEBRIS",
+    "06_MUCOSA",
+    "07_ADIPOSE",
+    "08_EMPTY"
+  ],
+  "input_label_mapping": {
+    "01_TUMOR": 0,
+    "02_STROMA": 1,
+    "03_COMPLEX": 2,
+    "04_LYMPHO": 3,
+    "05_DEBRIS": 4,
+    "06_MUCOSA": 5,
+    "07_ADIPOSE": 6,
+    "08_EMPTY": 7
+  },
+  "split_sha256": "61afd6a446bf66cfd67a7de0511177b156563995a5707b970fa5a37a2a2cf7da",
+  "split_sizes": {
+    "train": 3496,
+    "validation": 752,
+    "test": 752
+  },
+  "slide_groups": null,
+  "python": "3.12.3",
+  "platform": "Windows-11-10.0.26200-SP0",
+  "dependencies": {
+    "numpy": "1.26.4",
+    "Pillow": "10.4.0",
+    "torch": "2.13.0"
+  },
+  "model_identifiers": {}
+}

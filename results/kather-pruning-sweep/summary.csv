@@ -1,0 +1,10 @@
+model,metric,seeds,mean,sample_sd
+pruned,accuracy,1,0.7566489361702128,
+pruned,sensitivity,1,0.7566489361702129,
+pruned,specificity,1,0.9652355623100304,
+pruned,balanced_accuracy,1,0.7566489361702129,
+pruned,macro_f1,1,0.7521415716014634,
+pruned,total_parameters,1,72196,
+pruned,mean_active_parameters,1,46619.914893617024,
+pruned,mean_gradient_payload_bytes,1,288784.0,
+pruned,latency_ms_per_image,1,0.23885159579878476,

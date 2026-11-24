@@ -1,0 +1,43 @@
+{
+  "n": 1598,
+  "accuracy": 0.9555694618272841,
+  "sensitivity": 0.7337662337662337,
+  "specificity": 0.9792243767313019,
+  "balanced_accuracy": 0.8564953052487678,
+  "macro_f1": 0.8682257785396799,
+  "confusion_matrix": [
+    [
+      1414,
+      30
+    ],
+    [
+      41,
+      113
+    ]
+  ],
+  "support": [
+    1444,
+    154
+  ],
+  "per_class_sensitivity": [
+    0.9792243767313019,
+    0.7337662337662337
+  ],
+  "per_class_specificity": [
+    0.7337662337662337,
+    0.9792243767313019
+  ],
+  "total_parameters": 55372,
+  "mean_active_parameters": 55372.0,
+  "latency_ms_per_image": 0.3987318524060414,
+  "full_model_fp32_bytes": 221488,
+  "top_k": 4,
+  "retained_experts": 4,
+  "expert_sparsity": 0.0,
+  "utilization": {
+    "texture_3x3": 1.0,
+    "context": 1.0,
+    "wide_context": 1.0,
+    "channel_mlp": 1.0
+  }
+}

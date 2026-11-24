@@ -1,0 +1,56 @@
+[
+  {
+    "examples": 3496,
+    "steps": 55,
+    "loss_sum": 1031.9940203428268,
+    "gradient_bytes_sum": 17459800,
+    "epoch": 1,
+    "seconds": 5.503020400064997,
+    "phase": "warmup"
+  },
+  {
+    "examples": 3496,
+    "steps": 55,
+    "loss_sum": 676.5595238208771,
+    "gradient_bytes_sum": 12181840,
+    "epoch": 1,
+    "seconds": 5.353702299995348,
+    "phase": "train"
+  },
+  {
+    "examples": 3496,
+    "steps": 55,
+    "loss_sum": 504.946413397789,
+    "gradient_bytes_sum": 12181840,
+    "epoch": 2,
+    "seconds": 4.905607199994847,
+    "phase": "train"
+  },
+  {
+    "examples": 3496,
+    "steps": 55,
+    "loss_sum": 452.9237713813782,
+    "gradient_bytes_sum": 12181840,
+    "epoch": 3,
+    "seconds": 5.363551800022833,
+    "phase": "train"
+  },
+  {
+    "examples": 3496,
+    "steps": 55,
+    "loss_sum": 392.31148260831833,
+    "gradient_bytes_sum": 12181840,
+    "epoch": 4,
+    "seconds": 6.195647299988195,
+    "phase": "train"
+  },
+  {
+    "examples": 3496,
+    "steps": 55,
+    "loss_sum": 365.53248965740204,
+    "gradient_bytes_sum": 12181840,
+    "epoch": 5,
+    "seconds": 8.216386999934912,
+    "phase": "train"
+  }
+]

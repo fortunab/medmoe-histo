@@ -1,0 +1,2 @@
+seed,model,accuracy,sensitivity,specificity,balanced_accuracy,macro_f1,total_parameters,mean_active_parameters,mean_gradient_payload_bytes,active_pct_dense,communication_pct_dense,active_pct_efficientnet,communication_pct_efficientnet,latency_ms_per_image
+17,pruned,0.7566489361702128,0.7566489361702129,0.9652355623100304,0.7566489361702129,0.7521415716014634,72196,46619.914893617024,288784.0,,,,,0.23885159579878476
